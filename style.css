@@ -54,7 +54,7 @@ nav ul{
     flex-direction:row;
     justify-content:space-between;
     white-space:nowrap;
-    align-items:overflow-position}
+    align-items:stretch}
 
 nav ul a.joinus{
     color:white;
