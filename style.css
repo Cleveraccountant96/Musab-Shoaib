@@ -38,11 +38,14 @@ header h1{
     left: 0; 
     top: 30%}
 
-.banner .h2{
-    color:black;
+.banner h2{
+    color:white;
     font-family:Geneva;
-    font-size: 12000px;
-    Text-align:Top left}
+    Text-align:center;
+    align-items:stretch;
+    font-size:170px;
+    left:140px;
+    top:160px}
     
 
 nav ul{
