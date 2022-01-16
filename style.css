@@ -9,23 +9,24 @@ body{
 
 header{
     background-color: red;
-    padding: 20px 0%;
+    padding: 40px 0%;
     text-align: center;
     position:fixed;
+    box-sizing:border-box;
     width: 100%;
     z-index: 1;
     top:0;
     left:0}
 
 
-h1{  
+header h1{  
     color: white;
-    border: 8px;
+    border: 10px;
     border-style: solid;
     border-color: white;
-    padding: 6px 12px;
-    display: inline block;
+    display:inline-block;
     border-radius: 20px}
+
 .banner{
     position:relative}
 
@@ -44,36 +45,37 @@ h1{
     Text-align:Top left}
     
 
-nav{
-    padding:20px;
-    position:static;
-    top:100px}
+nav ul{
+    position:absolute;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    white-space:nowrap;
+    align-items:overflow-position}
 
-nav li{
-    width:25%;
-    display:inline-block;
-    font-size: 24px}
-
-nav li a{
-    position:relative;
-    justify-content:content-position;
-    white-space:nowrap}
-
-nav li a.joinus{
+nav ul a.joinus{
     color:white;
-    text-align:left}
+    display:inline-block;
+    padding: 40px;
+    font-size:40px}
 
-nav li a.news{
+nav ul a.news{
     color: white;
-    text-align:center left}
+    display:inline-block;
+    padding: 40px;
+    font-size:40px}
 
-nav li a.try{
+nav ul a.try{
     color: white;
-    text-align:center right}
+    display:inline-block;
+    padding: 40px;
+    font-size:40px}
 
-nav li a.contacts{
+nav ul a.contacts{
     color: white;
-    text-align:right}
+    display:inline-block;
+    padding: 40px;
+    font-size:40px}
 
 main{
     max-width:100%;
@@ -93,23 +95,18 @@ article p{
     line-height:2em}
 
 .images{
-    text-align:center;
-    margin:80px 0;
-    white-space:nowraping}
+    padding:70px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly}
 
-.images li{
-    display: inline block;
-    width: 40%;
-    margin: 20px 5%}
-
-.images li img{
-   max-width:100%;
-   white-space:nowrap;
-   justify-content:content-position}
 .thumb1{
-   position:left}
+   width:420px;
+   height: 220px}
+
 .thumb2{
-   position:right}
+    width: 420px;
+    height: 220px}
 
 .join p{
    text-align:center;
