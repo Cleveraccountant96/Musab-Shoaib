@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+}
+body{
+    background-color:yellow}
+
+header{
+    background-color: red;
+    padding: 40px 0%;
+    text-align: center;
+    position:fixed;
+    box-sizing:border-box;
+    width: 100%;
+    z-index: 1;
+    top:0;
+    left:0}
+
+
+header h1{  
+    color: white;
+    border: 10px;
+    border-style: solid;
+    border-color: white;
+    display:inline-block;
+    border-radius: 20px}
+
+.banner{
+    position:relative}
+
+.banner img{
+    max-width: 100%;}
+
+.banner .Welcome{ 
+    position:absolute;
+    left: 0; 
+    top: 30%}
+
+.banner h2{
+    color:white;
+    font-family:Geneva;
+    Text-align:center;
+    align-items:stretch;
+    font-size:170px;
+    left:140px;
+    top:160px}
+    
+
+nav ul{
+    position:absolute;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    white-space:nowrap;
+    align-items:overflow-position}
+
+a:link {color: white}
+a:visited {color: black} 
+a:active {color: blue}
+
+nav ul a.joinus{
+    color:white;
+    display:inline-block;
+    padding: 40px;
+    font-size:40px}
+
+nav ul a.news{
+    color: white;
+    display:inline-block;
+    padding: 40px;
+    font-size:40px}
+
+nav ul a.try{
+    color: white;
+    display:inline-block;
+    padding: 40px;
+    font-size:40px}
+
+nav ul a.contacts{
+    color: white;
+    display:inline-block;
+    padding: 40px;
+    font-size:40px}
+
+main{
+    max-width:100%;
+    width:120%;
+    margin:80px;
+    padding:0 40px;
+    box-sizing:border-box;}
+
+article h3{
+    color:red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:32px}
+
+article p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:23px;
+    line-height:2em}
+
+.images{
+    padding:70px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly}
+
+.thumb1{
+   width:420px;
+   height: 220px}
+
+.thumb2{
+    width: 420px;
+    height: 220px}
+
+.join p{
+   text-align:center;
+   font-family:italic}
+
+form{
+   text-align:center}
+
+.copyright{
+   text-align:center}
