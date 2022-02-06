@@ -1,0 +1,41 @@
+*{
+  padding:0;
+  Margin:0;  
+}
+.container{
+    width:70%;
+    margin:auto;
+    text-align:center;
+}
+.dice{
+    text-align: center;
+    display: inline-flex;
+    margin: 10px;
+}
+body{
+    background-color:black;
+    margin:0;
+}
+h1{
+    margin:30px;
+    font-family:sans-serif;
+    font-size:4rem;
+    color:white;
+    text-align: center;
+}
+p{
+    font-size:2rem;
+    color:white;
+    font-family:sans-serif;
+}
+img{
+    width:50%;
+}
+.bottom{
+    padding-top:30px;
+}
+button{
+    border-radius: 7px;
+    font-size:30px;
+    padding:16px 25px 16px 25px;
+}
