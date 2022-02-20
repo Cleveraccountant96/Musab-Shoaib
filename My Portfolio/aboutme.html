@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet"href="design.css">
+</head>
+<body>
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+       
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Projects</a>
+          </li>
+        </ul>
+    </nav>
+    <main>
+      <img src="Pic/Note.png"class="note">
+      <table id="container">
+        <tr>
+          <td>
+            <div class="figma">
+              <a href="project.html"><img src="site/image (4) 1.png" alt="my Figma Design"><h6>Click me to Go next</h6></a>
+            </div>
+          </td>
+          <td>
+            <div class="desk">
+              <a href="site/Profile.pdf"><img src="Pic/Accounting.png"alt="Accounting"><h6>My Resume</h6></a>
+            </div>
+          </td>
+          <td>
+            <img src="Pic/IMG.png"alt="Statics"class="pie">
+          </td>
+          <td>
+            <div class="code">
+              <a href="https://github.com/Cleveraccountant96"><img src="Pic/Coder.png"alt="Coder"><h6>Visit My github</h6></a>
+            </div>
+          </td>
+    </main>
+    <section class="join">
+      
+      <h3>Register Your Interest</h3><br>
+
+      <form name="myForm" action="aboutme.html"
+      onsubmit="return validateForm()" method="post">
+
+        <label>Name:</label><br>
+        <input type="text" name="fname"required><br>
+        <lable>Surname:</lable><br>
+        <input type="text" name="lname"required><br>
+        <label>Email:</label><br>
+        <input type="email" name="email"><br>
+        <input type="submit" name="submit"></br>
+
+      </form>
+    </section>
+    <script src="Codet.js"></script>
+  </body>
+</html>
